@@ -1,10 +1,10 @@
 bot = getBot()
 
 -- KONFIGURASI
-gautWorld = "JENUSI1"   -- world tempat gaut (bot ke sini dulu)
-gautDoor  = "YT"   -- door ID world gaut
-storage   = "KUGERYSAFE1"   -- world storage (tujuan drop)
-storageid = "GERRY271"   -- door ID world storage
+gautWorld = "NAMA WORLD GAUT"   -- world tempat gaut (bot ke sini dulu)
+gautDoor  = "DOOR ID WORLD GAUT"   -- door ID world gaut
+storage   = "WORLD U"   -- world storage (tujuan drop)
+storageid = "DOOR ID "   -- door ID world storage
 dropX, dropY = nil, nil -- posisi drop di world storage (koordinat findPath, 0-based); nil = tidak pindah
 
 -- item ID tile gaut -> nama dialog mesin (ganti ID kalau beda)
